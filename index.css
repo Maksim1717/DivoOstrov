@@ -1,0 +1,66 @@
+.basis {
+  text-align: center;
+  background-color: rgb(255, 241, 115);
+}
+
+.job {
+  display: flex;
+
+  margin-left: 25%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  .job {
+    text-align: left;
+    display: block;
+  }
+}
+
+.second {
+  width: 150px;
+  border-radius: 15%;
+  display: flex;
+}
+
+.ttt {
+  width: 350px;
+}
+
+.rrr {
+  font-size: 20px;
+}
+
+.qqq {
+  text-align: left;
+  padding-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.eee {
+  font-size: 19px;
+}
+
+.qqqq {
+  text-align: left;
+  padding-left: 25%;
+}
+
+.ooo {
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  width: 200px;
+  height: 55px;
+  font-size: 17px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.ooo:hover {
+  opacity: 0.9;
+}
